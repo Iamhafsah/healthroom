@@ -1,0 +1,34 @@
+{
+  "name": "my-gatsby-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My Gatsby Site",
+  "author": "hafsah",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.9.0",
+    "gatsby-plugin-gatsby-cloud": "^2.9.0",
+    "gatsby-plugin-image": "^1.9.0",
+    "gatsby-plugin-sharp": "^3.9.0",
+    "gatsby-source-filesystem": "^3.9.0",
+    "gatsby-transformer-remark": "^4.6.0",
+    "gatsby-transformer-sharp": "^3.9.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "gatsby-plugin-postcss": "^4.9.0",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
