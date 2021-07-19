@@ -17,7 +17,7 @@ const Article = ({data}) => {
 
                 <div dangerouslySetInnerHTML={{ __html: html }}></div>
                 
-                <p className="pt-8">Published in {tag} category</p>
+                <p className="pt-8">Published in the {tag} category</p>
             </section>
         </div>
         </Layout>

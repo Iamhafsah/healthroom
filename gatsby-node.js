@@ -3,18 +3,11 @@ const path = require(`path`)
 exports.createPages = async ({ graphql, actions }) => {
     
     const {data} = await graphql(`
-      query HealthArticles {
+      query AllArticles {
         allMarkdownRemark {
-          nodes {
+          nodes{
             frontmatter {
-              title
-              tag
               slug
-              image {
-                childImageSharp {
-                  gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
-                }
-              }
             }
             html
           }
