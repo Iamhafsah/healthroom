@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Rammetto+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply font-montserrat
+}
+ul li{
+    @apply ml-4 
+}
+.article h2{
+    @apply font-semibold;
+    @apply py-4;
+}
+
