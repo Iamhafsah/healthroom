@@ -1,1 +1,1 @@
-Gatsby and Tailwind CSS project.
+A blog created with Gatsby and Tailwind CSS.
