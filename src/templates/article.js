@@ -12,8 +12,8 @@ const Article = ({data}) => {
             <GatsbyImage image={image.childImageSharp.gatsbyImageData} className=" md:h-96 h-60"/>
 
             <section className="py-10">
-                <span className="bg-gray-200 py-1 px-2 font-semibold">{tag}</span>
-                <h2 className="font-semibold text-3xl py-4 capitalize">{title}</h2>
+                <span className="bg-gray-200 py-1 px-2 font-semibold ">{tag}</span>
+                <h2 className="font-semibold md:text-3xl text-xl py-4 capitalize">{title}</h2>
 
                 <div dangerouslySetInnerHTML={{ __html: html }}></div>
                 
